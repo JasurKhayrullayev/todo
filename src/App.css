@@ -1,0 +1,127 @@
+body{
+    background-color: #443F3F;;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.expense{
+    background-color: #020202;
+    margin: 0 auto;
+    width: 732px;
+    height: 488px;
+    padding: 24px 34px;
+    margin-top: 50px;
+}
+
+.expense-item{
+    display: flex;
+    margin-bottom: 15px;
+    background: #504D4D;
+    border-radius: 13px;
+    padding: 9px 23px;
+    width: 663px;
+    height: 95px;
+    align-items:center;
+}
+
+.expense-item:last-child{
+    margin-bottom: 0;
+}
+
+.item-data{
+    background: #0B0B0B;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 79px;
+    height: 77px;
+    color: #FFFFFF;
+    padding-top: 9px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 11px;
+}
+
+p,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.data-month{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.data-year{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 1px;
+}
+
+.data-day{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.item-info{
+    display: flex;
+    width: 522px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.item-title{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+.item-price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: rgba(40, 16, 108, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 105px;
+    height: 39px;
+    padding: 10px 29px;
+    margin-right: 5px;
+}
+
+.item-btn{
+    background: rgba(40, 16, 108, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    height: 39px;
+}
